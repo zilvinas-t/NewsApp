@@ -7,16 +7,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea51f62d-0027-4531-a4dc-64943354b064" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/zilvinas/newsapp/di/ApiModule.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/zilvinas/newsapp/model/ArticlesApi.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/zilvinas/newsapp/util/Util.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/zilvinas/newsapp/view/ArticlesListAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/article_item_card.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/article_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/zilvinas/newsapp/view/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zilvinas/newsapp/view/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="172.17.1.163:5555" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="10bd177" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -34,13 +43,16 @@
       <list>
         <option value="Kotlin Interface" />
         <option value="Kotlin Class" />
+        <option value="layoutResourceFile" />
+        <option value="resourceFile" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="MVVM-integration" />
+        <entry key="$PROJECT_DIR$" value="Retrofit2-and-DI-integration" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -52,6 +64,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="10bd177" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-08-11T10:18:28.892Z" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
@@ -72,7 +86,7 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -149,26 +163,54 @@
       <option name="project" value="LOCAL" />
       <updated>1597140178852</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Retrofit2 and DI integration.">
+      <created>1597140618282</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1597140618282</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial project commit." />
     <MESSAGE value="MVVM integration, small UI improvement, defined models." />
-    <option name="LAST_COMMIT_MESSAGE" value="MVVM integration, small UI improvement, defined models." />
+    <MESSAGE value="Retrofit2 and DI integration." />
+    <option name="LAST_COMMIT_MESSAGE" value="Retrofit2 and DI integration." />
   </component>
   <component name="WindowStateProjectService">
     <state x="-559" y="-869" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1597139701599">
       <screen x="-1282" y="-1057" width="1920" height="1057" />
     </state>
     <state x="-559" y="-869" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.23.1280.725/-1282.-1057.1920.1057/638.-1057.1920.1057@-1282.-1057.1920.1057" timestamp="1597139701599" />
-    <state x="-806" y="-924" key="CommitChangelistDialog2" timestamp="1597140178290">
+    <state x="-734" y="-767" key="AndroidCreateResourceFileDialog" timestamp="1597140811216">
       <screen x="-1282" y="-1057" width="1920" height="1057" />
     </state>
-    <state x="-806" y="-924" key="CommitChangelistDialog2/0.23.1280.725/-1282.-1057.1920.1057/638.-1057.1920.1057@-1282.-1057.1920.1057" timestamp="1597140178290" />
-    <state x="-722" y="-789" key="Vcs.Push.Dialog.v2" timestamp="1597140189646">
+    <state x="-734" y="-767" key="AndroidCreateResourceFileDialog/0.23.1280.725/-1282.-1057.1920.1057/638.-1057.1920.1057@-1282.-1057.1920.1057" timestamp="1597140811216" />
+    <state x="-806" y="-924" key="CommitChangelistDialog2" timestamp="1597141304670">
       <screen x="-1282" y="-1057" width="1920" height="1057" />
     </state>
-    <state x="-722" y="-789" key="Vcs.Push.Dialog.v2/0.23.1280.725/-1282.-1057.1920.1057/638.-1057.1920.1057@-1282.-1057.1920.1057" timestamp="1597140189646" />
+    <state x="-806" y="-924" key="CommitChangelistDialog2/0.23.1280.725/-1282.-1057.1920.1057/638.-1057.1920.1057@-1282.-1057.1920.1057" timestamp="1597141304670" />
+    <state width="1878" height="290" key="GridCell.Tab.0.bottom" timestamp="1597141404653">
+      <screen x="-1282" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="290" key="GridCell.Tab.0.bottom/0.23.1280.725/-1282.-1057.1920.1057/638.-1057.1920.1057@-1282.-1057.1920.1057" timestamp="1597141404653" />
+    <state width="1878" height="290" key="GridCell.Tab.0.center" timestamp="1597141404653">
+      <screen x="-1282" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="290" key="GridCell.Tab.0.center/0.23.1280.725/-1282.-1057.1920.1057/638.-1057.1920.1057@-1282.-1057.1920.1057" timestamp="1597141404653" />
+    <state width="1878" height="290" key="GridCell.Tab.0.left" timestamp="1597141404652">
+      <screen x="-1282" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="290" key="GridCell.Tab.0.left/0.23.1280.725/-1282.-1057.1920.1057/638.-1057.1920.1057@-1282.-1057.1920.1057" timestamp="1597141404652" />
+    <state width="1878" height="290" key="GridCell.Tab.0.right" timestamp="1597141404653">
+      <screen x="-1282" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="290" key="GridCell.Tab.0.right/0.23.1280.725/-1282.-1057.1920.1057/638.-1057.1920.1057@-1282.-1057.1920.1057" timestamp="1597141404653" />
+    <state x="-722" y="-789" key="Vcs.Push.Dialog.v2" timestamp="1597141309874">
+      <screen x="-1282" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="-722" y="-789" key="Vcs.Push.Dialog.v2/0.23.1280.725/-1282.-1057.1920.1057/638.-1057.1920.1057@-1282.-1057.1920.1057" timestamp="1597141309874" />
   </component>
 </project>
