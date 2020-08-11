@@ -7,18 +7,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea51f62d-0027-4531-a4dc-64943354b064" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/zilvinas/newsapp/ArticlesViewModelTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/zilvinas/newsapp/view/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zilvinas/newsapp/view/MainActivity.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="172.17.1.163:5555" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="10bd177" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -45,7 +45,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="article-preview" />
+        <entry key="$PROJECT_DIR$" value="unit-testing" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -74,7 +74,7 @@
       <recent name="com.zilvinas.newsapp.view" />
     </key>
   </component>
-  <component name="RunManager" selected="Android JUnit.ArticlesViewModelTest.getApiDataFailure">
+  <component name="RunManager" selected="Android App.app">
     <configuration name="ArticlesViewModelTest.getApiDataFailure" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="app" />
       <extension name="coverage">
@@ -227,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597142046398</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Wrote unit tests for ArticlesViewModel.">
+      <created>1597142867293</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1597142867293</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -237,7 +244,8 @@
     <MESSAGE value="RecyclerView integration." />
     <MESSAGE value="Added article loading progress bar." />
     <MESSAGE value="Created article preview activity." />
-    <option name="LAST_COMMIT_MESSAGE" value="Created article preview activity." />
+    <MESSAGE value="Wrote unit tests for ArticlesViewModel." />
+    <option name="LAST_COMMIT_MESSAGE" value="Wrote unit tests for ArticlesViewModel." />
   </component>
   <component name="WindowStateProjectService">
     <state x="-559" y="-869" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1597139701599">
@@ -248,29 +256,29 @@
       <screen x="-1282" y="-1057" width="1920" height="1057" />
     </state>
     <state x="-734" y="-767" key="AndroidCreateResourceFileDialog/0.23.1280.725/-1282.-1057.1920.1057/638.-1057.1920.1057@-1282.-1057.1920.1057" timestamp="1597140811216" />
-    <state x="-806" y="-924" key="CommitChangelistDialog2" timestamp="1597142045960">
+    <state x="-806" y="-924" key="CommitChangelistDialog2" timestamp="1597142866954">
       <screen x="-1282" y="-1057" width="1920" height="1057" />
     </state>
-    <state x="-806" y="-924" key="CommitChangelistDialog2/0.23.1280.725/-1282.-1057.1920.1057/638.-1057.1920.1057@-1282.-1057.1920.1057" timestamp="1597142045960" />
-    <state width="1878" height="290" key="GridCell.Tab.0.bottom" timestamp="1597142243311">
+    <state x="-806" y="-924" key="CommitChangelistDialog2/0.23.1280.725/-1282.-1057.1920.1057/638.-1057.1920.1057@-1282.-1057.1920.1057" timestamp="1597142866954" />
+    <state width="1878" height="290" key="GridCell.Tab.0.bottom" timestamp="1597142994877">
       <screen x="-1282" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.bottom/0.23.1280.725/-1282.-1057.1920.1057/638.-1057.1920.1057@-1282.-1057.1920.1057" timestamp="1597142243311" />
-    <state width="1878" height="290" key="GridCell.Tab.0.center" timestamp="1597142243310">
+    <state width="1878" height="290" key="GridCell.Tab.0.bottom/0.23.1280.725/-1282.-1057.1920.1057/638.-1057.1920.1057@-1282.-1057.1920.1057" timestamp="1597142994877" />
+    <state width="1878" height="290" key="GridCell.Tab.0.center" timestamp="1597142994876">
       <screen x="-1282" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.center/0.23.1280.725/-1282.-1057.1920.1057/638.-1057.1920.1057@-1282.-1057.1920.1057" timestamp="1597142243310" />
-    <state width="1878" height="290" key="GridCell.Tab.0.left" timestamp="1597142243308">
+    <state width="1878" height="290" key="GridCell.Tab.0.center/0.23.1280.725/-1282.-1057.1920.1057/638.-1057.1920.1057@-1282.-1057.1920.1057" timestamp="1597142994876" />
+    <state width="1878" height="290" key="GridCell.Tab.0.left" timestamp="1597142994875">
       <screen x="-1282" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.left/0.23.1280.725/-1282.-1057.1920.1057/638.-1057.1920.1057@-1282.-1057.1920.1057" timestamp="1597142243308" />
-    <state width="1878" height="290" key="GridCell.Tab.0.right" timestamp="1597142243310">
+    <state width="1878" height="290" key="GridCell.Tab.0.left/0.23.1280.725/-1282.-1057.1920.1057/638.-1057.1920.1057@-1282.-1057.1920.1057" timestamp="1597142994875" />
+    <state width="1878" height="290" key="GridCell.Tab.0.right" timestamp="1597142994876">
       <screen x="-1282" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.right/0.23.1280.725/-1282.-1057.1920.1057/638.-1057.1920.1057@-1282.-1057.1920.1057" timestamp="1597142243310" />
-    <state x="-722" y="-789" key="Vcs.Push.Dialog.v2" timestamp="1597142052027">
+    <state width="1878" height="290" key="GridCell.Tab.0.right/0.23.1280.725/-1282.-1057.1920.1057/638.-1057.1920.1057@-1282.-1057.1920.1057" timestamp="1597142994876" />
+    <state x="-722" y="-789" key="Vcs.Push.Dialog.v2" timestamp="1597142872221">
       <screen x="-1282" y="-1057" width="1920" height="1057" />
     </state>
-    <state x="-722" y="-789" key="Vcs.Push.Dialog.v2/0.23.1280.725/-1282.-1057.1920.1057/638.-1057.1920.1057@-1282.-1057.1920.1057" timestamp="1597142052027" />
+    <state x="-722" y="-789" key="Vcs.Push.Dialog.v2/0.23.1280.725/-1282.-1057.1920.1057/638.-1057.1920.1057@-1282.-1057.1920.1057" timestamp="1597142872221" />
   </component>
 </project>
