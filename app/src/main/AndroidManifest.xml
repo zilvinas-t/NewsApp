@@ -12,7 +12,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".view.MainActivity"
+        <activity android:name=".view.ArticlePreviewActivity"
+            android:theme="@style/Theme.Design.NoActionBar">
+        </activity>
+        <activity
+            android:name=".view.MainActivity"
             android:theme="@style/Theme.Design">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

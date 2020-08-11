@@ -1,12 +1,16 @@
 package com.zilvinas.newsapp.view
 
+import android.app.ActivityOptions
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.google.gson.Gson
 import com.zilvinas.newsapp.R
+import com.zilvinas.newsapp.model.Article
 import com.zilvinas.newsapp.viewmodel.ArticlesViewModel
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -35,7 +39,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         articlesAdapter.onItemClick = { article ->
-            //TODO: implement article details activity preview here
+            viewArticleDetails(article)
         }
 
         observeViewModel()
@@ -61,5 +65,15 @@ class MainActivity : AppCompatActivity() {
                     load_error_text.visibility = View.GONE
             }
         })
+    }
+
+    private fun viewArticleDetails(article: Article) {
+        val encodedArticle = Gson().toJson(article)
+        val intent = Intent(this, ArticlePreviewActivity::class.java).apply {
+            putExtra(getString(R.string.article_json), encodedArticle)
+        }
+
+        val options = ActivityOptions.makeSceneTransitionAnimation(this).toBundle()
+        startActivity(intent)
     }
 }
