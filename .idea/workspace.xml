@@ -7,24 +7,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea51f62d-0027-4531-a4dc-64943354b064" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/zilvinas/newsapp/view/ArticlePreviewActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_article_preview.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/zilvinas/newsapp/ArticlesViewModelTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/zilvinas/newsapp/view/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/zilvinas/newsapp/view/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="10bd177" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="172.17.1.163:5555" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -41,17 +35,17 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Interface" />
-        <option value="Kotlin Class" />
         <option value="layoutResourceFile" />
         <option value="resourceFile" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="recyclerview-integration" />
+        <entry key="$PROJECT_DIR$" value="article-preview" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -80,7 +74,41 @@
       <recent name="com.zilvinas.newsapp.view" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Android JUnit.ArticlesViewModelTest.getApiDataFailure">
+    <configuration name="ArticlesViewModelTest.getApiDataFailure" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zilvinas.newsapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zilvinas.newsapp" />
+      <option name="MAIN_CLASS_NAME" value="com.zilvinas.newsapp.ArticlesViewModelTest" />
+      <option name="METHOD_NAME" value="getApiDataFailure" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArticlesViewModelTest.getApiDataSuccess" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zilvinas.newsapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zilvinas.newsapp" />
+      <option name="MAIN_CLASS_NAME" value="com.zilvinas.newsapp.ArticlesViewModelTest" />
+      <option name="METHOD_NAME" value="getApiDataSuccess" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -139,6 +167,12 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Android JUnit.ArticlesViewModelTest.getApiDataFailure" />
+        <item itemvalue="Android JUnit.ArticlesViewModelTest.getApiDataSuccess" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -186,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597141439830</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Created article preview activity.">
+      <created>1597142046398</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1597142046398</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -195,7 +236,8 @@
     <MESSAGE value="Retrofit2 and DI integration." />
     <MESSAGE value="RecyclerView integration." />
     <MESSAGE value="Added article loading progress bar." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added article loading progress bar." />
+    <MESSAGE value="Created article preview activity." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created article preview activity." />
   </component>
   <component name="WindowStateProjectService">
     <state x="-559" y="-869" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1597139701599">
@@ -206,29 +248,29 @@
       <screen x="-1282" y="-1057" width="1920" height="1057" />
     </state>
     <state x="-734" y="-767" key="AndroidCreateResourceFileDialog/0.23.1280.725/-1282.-1057.1920.1057/638.-1057.1920.1057@-1282.-1057.1920.1057" timestamp="1597140811216" />
-    <state x="-806" y="-924" key="CommitChangelistDialog2" timestamp="1597141439457">
+    <state x="-806" y="-924" key="CommitChangelistDialog2" timestamp="1597142045960">
       <screen x="-1282" y="-1057" width="1920" height="1057" />
     </state>
-    <state x="-806" y="-924" key="CommitChangelistDialog2/0.23.1280.725/-1282.-1057.1920.1057/638.-1057.1920.1057@-1282.-1057.1920.1057" timestamp="1597141439457" />
-    <state width="1878" height="290" key="GridCell.Tab.0.bottom" timestamp="1597141404653">
+    <state x="-806" y="-924" key="CommitChangelistDialog2/0.23.1280.725/-1282.-1057.1920.1057/638.-1057.1920.1057@-1282.-1057.1920.1057" timestamp="1597142045960" />
+    <state width="1878" height="290" key="GridCell.Tab.0.bottom" timestamp="1597142243311">
       <screen x="-1282" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.bottom/0.23.1280.725/-1282.-1057.1920.1057/638.-1057.1920.1057@-1282.-1057.1920.1057" timestamp="1597141404653" />
-    <state width="1878" height="290" key="GridCell.Tab.0.center" timestamp="1597141404653">
+    <state width="1878" height="290" key="GridCell.Tab.0.bottom/0.23.1280.725/-1282.-1057.1920.1057/638.-1057.1920.1057@-1282.-1057.1920.1057" timestamp="1597142243311" />
+    <state width="1878" height="290" key="GridCell.Tab.0.center" timestamp="1597142243310">
       <screen x="-1282" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.center/0.23.1280.725/-1282.-1057.1920.1057/638.-1057.1920.1057@-1282.-1057.1920.1057" timestamp="1597141404653" />
-    <state width="1878" height="290" key="GridCell.Tab.0.left" timestamp="1597141404652">
+    <state width="1878" height="290" key="GridCell.Tab.0.center/0.23.1280.725/-1282.-1057.1920.1057/638.-1057.1920.1057@-1282.-1057.1920.1057" timestamp="1597142243310" />
+    <state width="1878" height="290" key="GridCell.Tab.0.left" timestamp="1597142243308">
       <screen x="-1282" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.left/0.23.1280.725/-1282.-1057.1920.1057/638.-1057.1920.1057@-1282.-1057.1920.1057" timestamp="1597141404652" />
-    <state width="1878" height="290" key="GridCell.Tab.0.right" timestamp="1597141404653">
+    <state width="1878" height="290" key="GridCell.Tab.0.left/0.23.1280.725/-1282.-1057.1920.1057/638.-1057.1920.1057@-1282.-1057.1920.1057" timestamp="1597142243308" />
+    <state width="1878" height="290" key="GridCell.Tab.0.right" timestamp="1597142243310">
       <screen x="-1282" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.right/0.23.1280.725/-1282.-1057.1920.1057/638.-1057.1920.1057@-1282.-1057.1920.1057" timestamp="1597141404653" />
-    <state x="-722" y="-789" key="Vcs.Push.Dialog.v2" timestamp="1597141446987">
+    <state width="1878" height="290" key="GridCell.Tab.0.right/0.23.1280.725/-1282.-1057.1920.1057/638.-1057.1920.1057@-1282.-1057.1920.1057" timestamp="1597142243310" />
+    <state x="-722" y="-789" key="Vcs.Push.Dialog.v2" timestamp="1597142052027">
       <screen x="-1282" y="-1057" width="1920" height="1057" />
     </state>
-    <state x="-722" y="-789" key="Vcs.Push.Dialog.v2/0.23.1280.725/-1282.-1057.1920.1057/638.-1057.1920.1057@-1282.-1057.1920.1057" timestamp="1597141446987" />
+    <state x="-722" y="-789" key="Vcs.Push.Dialog.v2/0.23.1280.725/-1282.-1057.1920.1057/638.-1057.1920.1057@-1282.-1057.1920.1057" timestamp="1597142052027" />
   </component>
 </project>
